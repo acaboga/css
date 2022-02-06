@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: antiquewhite;
 }
 
 .navMenu{
@@ -14,6 +15,8 @@ body{
     display: inline-block;
 }
 header{
+    position: fixed;
+    width: 100%;
     padding: 10px 0;
     background-color: cadetblue;
 }
@@ -27,12 +30,36 @@ header{
     color: white;
 }
 
+article{
+    background-color: rgb(235, 224, 209);
+    margin: 10px 35px 30px 40px;
+    display: inline-block;
+    border: 1px saddlebrown solid;
+    border-image: 
+    linear-gradient(
+      to bottom, 
+      rgb(194, 168, 112), 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+    max-width: 28%;
+    border-radius: 5px;
+
+
+}
+article h2{
+    text-align: center;
+}
+.mainParagraf{
+    margin: 10px;
+}
+
+
 
 
 footer{
     padding: 10px 0;
     background-color: cadetblue;
-    bottom: 0px;
-    position: fixed;
+    margin-top: 40px;
+    
     width: 100%;
 }
