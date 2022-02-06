@@ -15,6 +15,7 @@ body{
     display: inline-block;
 }
 header{
+    top: 0px;
     position: fixed;
     width: 100%;
     padding: 10px 0;
@@ -30,7 +31,7 @@ header{
     color: white;
 }
 
-article{
+.mainArticle{
     background-color: rgb(235, 224, 209);
     margin: 10px 35px 30px 40px;
     display: inline-block;
@@ -46,15 +47,73 @@ article{
 
 
 }
-article h2{
+.mainArticle h2{
     text-align: center;
 }
 .mainParagraf{
     margin: 10px;
 }
 
+.aboutArticle{
+    margin: 40px;
+    margin-top: 100px;
+}
 
+.aboutArticle button{
+    background-color: rgb(155, 94, 15);
+    color:rgb(223, 216, 206);
+    padding: 5px 15px;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+.aboutArticle button a{
+    text-decoration: none;
+    color:rgb(223, 216, 206);
+}
 
+.aboutArticle button a:hover{
+    color: white;
+    
+}
+
+.contactArticle{
+    margin: 40px;
+    margin-top: 100px;
+    
+}
+
+.formGroup{
+    margin: 10px;
+}
+.formGroup label{
+    display: block;
+    color:rgb(155, 94, 15);
+}
+.formGroup input{
+    width: 40%;
+    padding: 5px 0;
+    margin-top: 4px;
+    background-color: rgb(235, 224, 209);
+    border-image: 
+    linear-gradient(
+      to left, 
+      rgb(194, 168, 112), 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+    
+}
+::-webkit-input-placeholder{
+    color:rgb(185, 147, 96);
+}
+.formGroup textarea{
+    border-image: 
+    linear-gradient(
+      to left, 
+      rgb(194, 168, 112), 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+}
 
 footer{
     padding: 10px 0;
