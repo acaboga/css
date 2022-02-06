@@ -115,6 +115,11 @@ header{
     ) 1 100%;
 }
 
+#submitBtn:hover{
+background-color: rgb(194, 168, 112);
+cursor: pointer;
+}
+
 footer{
     padding: 10px 0;
     background-color: cadetblue;
