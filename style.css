@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navMenu{
+    margin: auto;
+}
+
+.navMenu ul {
+    list-style: none;
+}
+.navMenu ul li {
+    display: inline-block;
+}
+header{
+    padding: 10px 0;
+    background-color: cadetblue;
+}
+.navMenu ul li a{
+    text-decoration: none;
+    color:rgb(223, 216, 206);
+    margin-left: 20px;
+}
+
+.navMenu ul li a:hover{
+    color: white;
+}
+
+
+
+footer{
+    padding: 10px 0;
+    background-color: cadetblue;
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+}
